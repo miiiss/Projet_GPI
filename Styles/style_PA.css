@@ -1,0 +1,148 @@
+/* Première feuille de style, uniquement pour la page d'accueil */
+
+body {
+	/* Modification de la couleur du site */
+	background-color: #BBAE98;
+	/* On supprime les marges */
+	margin: 0px;
+}
+
+h1 {
+	/* On agrandit la taille du titre 'Fun mouvement' */
+	font-size: 100px;
+	/* On centre le texte et défini la police */
+	font-family:  "Savoye LET" ;	/* Cette police est la police de tout le site */
+	text-align: center;
+	/* On défini le couleur */
+	color: white;
+	/* On fait remonter le titre un peu en haut de la page */
+	margin-top: 10px;
+}
+
+.nav {	/* Style du div contenant le menu */ 
+	margin-top: -80px;
+}
+
+.text_grand {
+	font-size: 40px;
+}
+
+/*
+*
+*/
+/* Menu de navigation du site */
+
+.navigation, .navigation ul {	/* Style standard et pour les ul */
+	/* Là je fait remonter notre menu vers le haut */
+	margin: 0px;
+	/* On supprime des marges internes */
+	padding: 0;
+	/* On supprime les carractère de liste */
+	list-style: none;
+	/* On centralise le teste du menu */
+	text-align: center;
+}
+
+.navigation li { /* Style qui s'applique au balise li */
+	/* On centralise le teste dans les balises li */
+	text-align: center;
+	/* On affiche le menu sur une seule ligne */
+	display: inline-block;
+	/* La position par rapport à l'écran */
+	position: relative;
+	/* Taille et police de caractère du texte du menu */
+	font-size: 30px;
+	font-family: "Savoye LET";
+}
+
+.navigation a {	/* Les balises de lien */
+	/* On enlève la couleur violette */
+	text-decoration: none;
+	/* On les affiche en block, l'un après l'autre */
+	display: block;
+	width: 150px; /* Largeur */
+	height: 35px;	/* Hauteur */
+	line-height: 50px;
+	color: white;	/* Couleur du texte */
+}
+
+.navigation ul { /* L'effet de style des balises ul */
+	left: -999em;
+	position: absolute
+}
+
+/* Le sous menu */
+
+.navigation li:hover > ul {
+	/* Effet de survoler les balises ul */
+	/* Je fait désecendre un peu le sous menu */
+	margin-top: 5px;
+	left: 0;
+	font-size: 30px;
+	background-color: gray;
+}
+
+.navigation li li:hover > ul {
+	left: 150px;
+	top: 0;
+}
+
+.navigation a:hover { /* Effet de survoler les balises de lien */
+	color: #666;
+	background: #ccc
+}
+
+/* Fin du style du menu centrale et du sous menu */
+/*
+*
+*/
+
+hr {	/* On va styliser le trait en-dessous du menu */
+	/* On le remonte un peu */
+	margin-top: 30px;
+	/* on le raccourci, maintenant il prendra 40% des écrans */
+	width: 40%;
+}
+
+.slogan {	/* Et maintenant le slogan */
+	font-family:  "Savoye LET" ;	/* Même police que les autres */
+	/* On centralise le texte */
+	text-align: center;
+	font-size: 35px;	/* Taille */
+	color: white;
+	/* On le remonte */
+	margin-top: -3px;
+}
+
+.image {
+	/* On l'agrandit */
+	width: 100%; /* largeur */
+	height: 40%; /* hauteur */
+}
+
+.text_footer {
+	font-family:  "Savoye LET" ;
+	/* on met le texte à gauche de l'écran */
+	text-align: right;
+	color: white;
+	/* On l'avance un peu vers la droite pour que ça soit vu */
+	margin-right: 10px;
+	/* Taille du texte */
+	font-size: 25px;
+}
+
+.style_nom {	/* Même chose que le text_footer mais juste un margin-top ajouter et la taille changer */
+	font-family:  "Savoye LET" ;
+	/* on met le texte à gauche de l'écran */
+	text-align: right;
+	color: white;
+	/* On l'avance un peu vers la doite */
+	margin-right: 10px;
+	/* Taille du texte */
+	font-size: 20px;
+	/* Margin */
+	margin-top: -20px;
+}
+
+
+
