@@ -6,9 +6,9 @@
 	<!-- Cette balise sert à indiquer au navigateur d'afficher les accens des lettres -->
 	<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="Styles/style_PA.css" /><!-- Appel du fichier CSS principal -->
-		<link rel="stylesheet" type="text/css" href="Styles/petit_ecran.css" /><!-- Appel du fichier CSS du media queries -->
+			<link rel="stylesheet" type="text/css" href="Styles/petit_ecran.css" /><!-- Appel du fichier CSS du media queries -->
 		<meta name="viewport" content="width=device-width" />
-		<title>Fun mouvement</title>
+	<title>Fun mouvement</title>
 </head>
 <body>
 
