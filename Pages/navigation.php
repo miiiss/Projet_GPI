@@ -89,7 +89,7 @@
 /* Style pour le medias queries */
 	
 	/* Modifications des styles pour les ecrans de 680px max */
-@media screen and (max-width: 1000px) and (min-width: 680px)
+@media screen and (max-width: 1000px) and (min-width: 680px)  
 { 
 	/* Menu de navigation du site */
 	.navigation {
@@ -109,7 +109,7 @@
 	/* Style du block div qui contient la barre de navigation */
 	.barre_nav {
 		/* On réduit la hauteur du div */
-		height: 6%;
+		height: 10%;
 	}
 
 	.titre_groupe { 
