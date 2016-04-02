@@ -1,5 +1,6 @@
 <!-- Page uniquement pour la barre de navigation -->
 
+<meta name="viewport" content="width=device-width" />
 <style type="text/css">
 /* Style pour toute le page */
 
