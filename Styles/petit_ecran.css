@@ -1,7 +1,215 @@
 /*** Feuille de style pour les medias queries ***/
 
-
-@media all and (min-width: 640px)
+/* Modifications des styles pour les ecrans de 680px max */
+@media screen and (max-width: 800px) and (min-width: 680px)
 { 
-	
+	/* Style du titre de la page d'accueil */
+
+	h1 {
+		/* On diminu un peu la taille du titre 'Fun mouvement' */
+		font-size: 80px;
+	}
+
+	.nav {
+		/* On fait déscendre un peu le menu */
+		margin-top: -60px;
+	}
+
+	.text_grand { 
+		/* On diminue le texte du menu */
+		font-size: 30px;
+	}
+
+	/* Menu de navigation du site */
+
+	.navigation, .navigation ul {
+		margin: 0px;
+		padding: 0;
+		list-style: none;
+		text-align: center;
+	}
+
+	.navigation li { 
+		/* On diminu la taille du texte du sous menu */
+		font-size: 20px;
+	}
+
+	.navigation a {	
+		width: 105px; /* On diminue la largeur du menu */
+		height: 35px;
+	}
+
+	.navigation ul {
+		left: -999em;
+		position: absolute
+	}
+
+	/* Le sous menu */
+
+	.navigation li:hover > ul {
+		margin-top: 5px;
+		left: 0;
+		font-size: 30px; 
+		background-color: gray;
+	}
+
+	.navigation li li:hover > ul {
+		left: 150px;
+		top: 0;
+	}
+
+	.navigation a:hover { 
+		color: #666;
+		background: #ccc
+	}
+
 }
+
+/**
+********************************************************************** 
+**/
+
+/* Modifications des styles pour les ecrans de 480px max (mobile) */
+@media screen and (min-width: 500px) and (max-width: 680px) 
+{ 
+	h1 {
+		/* On diminu un peu la taille du titre 'Fun mouvement' */
+		font-size: 70px;
+	}
+
+	.nav {
+		/* On fait déscendre un peu le menu */
+		margin-top: -60px;
+	}
+
+	.text_grand { 
+		/* On diminue le texte du menu */
+		font-size: 25px;
+	}
+
+	/* Menu de navigation du site */
+
+	.navigation, .navigation ul {
+		/* On supprime la marge */
+		margin: 0; 
+		padding: 0;
+		list-style: none;
+		/* On le remet au centre */
+		text-align: center;
+	}
+
+	.navigation li { 
+		/* On augmente la taille du texte du sous menu */
+		font-size: 20px;
+	}
+
+	.navigation a {	
+		width: 90px; /* On augmente la largeur du menu */
+	}
+
+	.navigation ul {
+		left: -999em;
+		position: absolute
+	}
+
+	/* Le sous menu */
+
+	.navigation li:hover > ul {
+		margin-top: 5px;
+		left: 0;
+		font-size: 10px; 
+		background-color: gray;
+	}
+
+	.navigation li li:hover > ul {
+		left: 150px;
+		top: 0;
+	}
+
+	.navigation a:hover { 
+		color: #666;
+		background: #ccc
+	}
+
+	.slogan {
+		font-size: 30px; /* On diminue la taille du slogan */
+	}
+
+}
+
+/**
+********************************************************************** 
+**/
+
+/* Modifications des styles pour les ecrans de 480px max (mobile) */
+@media screen and (max-width: 480px) 
+{ 
+	h1 {
+		/* On diminu un peu la taille du titre 'Fun mouvement' */
+		font-size: 70px;	}
+
+	.nav {
+		/* On fait déscendre un peu le menu */
+		margin-top: -60px;
+	}
+
+	.text_grand { 
+		/* On diminue le texte du menu */
+		font-size: 21px;
+	}
+
+	/* Menu de navigation du site */
+
+	.navigation, .navigation ul {
+		/* On ajoute une marge à gauche */
+		margin-left: 2%; 
+		padding: 0;
+		list-style: none;
+		/* On positionne le menu vers la gauche pour afficher tous les éléments */
+		text-align: left;
+	}
+
+	.navigation li { 
+		/* On diminu encore la taille du texte du sous menu */
+		font-size: 15px;
+	}
+
+	.navigation a {	
+		width: 70px; /* On diminue encore la largeur du menu */
+		height: 30px;	/* On reduit un peu la hauteur */
+	}
+
+	.navigation ul {
+		left: -999em;
+		position: absolute
+	}
+
+	/* Le sous menu */
+
+	.navigation li:hover > ul {
+		margin-top: 5px;
+		left: 0;
+		font-size: 20px; 
+		background-color: gray;
+	}
+
+	.navigation li li:hover > ul {
+		left: 150px;
+		top: 0;
+	}
+
+	.navigation a:hover { 
+		color: #666;
+		background: #ccc
+	}
+
+	.slogan {
+		font-size: 30px; /* On diminue la taille du slogan */
+	}
+
+}
+
+
+
+
+
